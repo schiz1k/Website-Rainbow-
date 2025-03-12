@@ -1103,7 +1103,7 @@ padding-bottom: 5px;
     -webkit-transition:all all 0.5s ;
     -moz-transition:all 0.5s ;
     -o-transition:all 0.5s c
-    transition: all 0.5s ;
+    transition all 0.5s ;
 }
 .single-teacher.twenty-per {
 	width: 20%;
