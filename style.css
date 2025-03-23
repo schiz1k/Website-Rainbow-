@@ -2,25 +2,25 @@
 /*-------Font---------- */
 
 @font-face {
-  font-family: 'Museo-300';
-  src: url('fonts/Museo-300.eot') format('embedded-opentype'),  url('fonts/Museo-300.otf')  format('opentype'),
-	     url('fonts/Museo-300.woff') format('woff'), url('fonts/Museo-300.ttf')  format('truetype'), url('fonts/Museo-300.svg') format('svg');
+  font-family: 'Fredoka One-300';
+  src: url('fonts/Fredoka One-300.eot') format('embedded-opentype'),  url('fonts/Fredoka One-300.otf')  format('opentype'),
+	     url('fonts/Fredoka One-300.woff') format('woff'), url('fonts/Fredoka One-300.ttf')  format('truetype'), url('fonts/Fredoka One-300.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo-500';
-  src: url('fonts/Museo-500.eot') format('embedded-opentype'),  url('fonts/Museo-500.otf')  format('opentype'),
-	     url('fonts/Museo-500.woff') format('woff'), url('fonts/Museo-500.ttf')  format('truetype'), url('fonts/Museo-500.svg') format('svg');
+  font-family: 'Fredoka One-500';
+  src: url('fonts/Fredoka One-500.eot') format('embedded-opentype'),  url('fonts/Fredoka One-500.otf')  format('opentype'),
+	     url('fonts/Fredoka One-500.woff') format('woff'), url('fonts/Fredoka One-500.ttf')  format('truetype'), url('fonts/Fredoka One-500.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo-700';
-  src: url('fonts/Museo-700.eot') format('embedded-opentype'),  url('fonts/Museo-700.otf')  format('opentype'),
-	     url('fonts/Museo-700.woff') format('woff'), url('fonts/Museo-700.ttf')  format('truetype'), url('fonts/Museo-700.svg') format('svg');
+  font-family: 'Fredoka One-700';
+  src: url('fonts/Fredoka One-700.eot') format('embedded-opentype'),  url('fonts/Fredoka One-700.otf')  format('opentype'),
+	     url('fonts/Fredoka One-700.woff') format('woff'), url('fonts/Fredoka One-700.ttf')  format('truetype'), url('fonts/Fredoka One-700.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -46,10 +46,11 @@ html {
 body {
   color: #919889;
   font-size: 14px;
-  font-family: 'Museo-300';
+  font-family: 'Fredoka One-300';
 }
 
 p {
+  font-family: 'Fredoka One', cursive;
   margin: 0;
   line-height: 24px
 }
@@ -82,7 +83,7 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 input ,textarea{outline: none}
 button:focus {
@@ -305,6 +306,7 @@ padding-bottom: 5px;
 	text-transform: capitalize;
 	border-bottom: 1px solid #f1f1f1;
 	padding-bottom: 11px;
+	font-family: 'Fredoka One', cursive;
 }
 .cart-sub-total span {
     color: #6e6e6e;
@@ -390,7 +392,7 @@ padding-bottom: 5px;
 	font-size: 18px;
 	padding: 28px 20px 30px;
 	text-transform: capitalize;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500', cursive;
 	position: relative;
 }
 .mainmenu > ul > li > a::after {
@@ -485,7 +487,7 @@ padding-bottom: 5px;
 	color: #656f73;
 	border-bottom: 1px solid #f4f4f4;
 	padding-left: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .search a {
 	color: #03a9f4;
@@ -519,7 +521,7 @@ padding-bottom: 5px;
 	padding: 9px 20px;
 	display: inline-block;
 	border-radius: 5px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500', cursive;
 	position: relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -577,7 +579,7 @@ padding-bottom: 5px;
 	transition: all 0.3s ease 0s;
 }
 .mainmenu .mega-button a {
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	color: #656f73;
 	font-size: 16px;
 	padding: 3px 0px;
@@ -630,7 +632,6 @@ padding-bottom: 5px;
 .slider-text p {
 	margin-bottom: 38px;
 	font-size: 40px;
-    font-family: 'Museo-700';
 }
 .bg-1{
 	background-image: url(img/slider/slider-2.jpg);
@@ -740,6 +741,7 @@ padding-bottom: 5px;
 }
 .slider-text .kids-care-btn {
 	margin: 0 10px;
+	font-family: 'Fredoka One', cursive;
 }
 
 /*Feature area start */
@@ -888,7 +890,7 @@ padding-bottom: 5px;
 	        box-shadow: 0px 15px 20px 0px rgba(106, 121, 128, 0.1);
 	border-color: #51A9F4;
 }
-.price p{font-size: 20px;font-family: 'Museo-700';}
+.price p{font-size: 20px;font-family: 'Fredoka One-700';}
 .price {
 	position: absolute;
 	top: -14px;
@@ -986,7 +988,7 @@ padding-bottom: 5px;
 }
 .call-to-action-area p {
 	font-size: 16px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One';
 	line-height: 38px;
 }
 
@@ -997,13 +999,13 @@ padding-bottom: 5px;
     background-repeat: repeat-x;
 }
 .kids-care-teachers-area .inner-container {
-	max-width: 1400px;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 .teacher-detail h4 {
 	color: #8373ce;
 	font-size: 20px;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One', cursive;
     transform:translate(0px,0px);
     -webkit-transition:all 0.2s ;
     -moz-transition:all 0.2s ;
@@ -1117,7 +1119,7 @@ padding-bottom: 5px;
 	padding: 0 400px;
    }
 .single-testimonial p {
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One', cursive;
 	font-size: 16px;
 	line-height: 30px;
 	padding-bottom: 50px;
@@ -1125,8 +1127,8 @@ padding-bottom: 5px;
 	z-index: 9999;
 	padding-top: 50px;
 }
-.single-testimonial span{display: block;font-family: 'Museo-300';font-size: 18px}
-.single-testimonial span.tes-name{font-family: 'Museo-700';font-size: 20px}
+.single-testimonial span{display: block;font-family: 'Fredoka One-300';font-size: 18px}
+.single-testimonial span.tes-name{font-family: 'Fredoka One-700';font-size: 20px}
 .test-img img {
 	border-radius: 50px;
 	width: 100%;
@@ -1199,7 +1201,7 @@ padding-bottom: 5px;
 .single-event .kids-care-btn {float: right;}
 .event-btn span {
 	font-size: 18px;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700', cursive;
 }
 .event-btn > span {
 	padding-top: 7px;
@@ -1280,7 +1282,7 @@ padding-bottom: 5px;
 	color: #962D8D;
 }
 .gallery-content h4 {
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	font-size: 20px;
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
@@ -1350,12 +1352,12 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 }
 .to-do-content h3 {
 	font-size: 25px;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .to-do-content p {
 	font-size: 14px;
 	line-height: 26px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	padding-top: 25px;
 	padding-bottom: 10px;
 }
@@ -1364,13 +1366,13 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 }
 .to-do-content span {
 	color: #666;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	margin-bottom: 6px;
 	display: inline-block;
 }
-.in span {font-family: 'Museo-300';}
+.in span {font-family: 'Fredoka One-300';}
 .in span {
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	background: #f1f1f1;
 	padding: 5px 16px;
 	margin-left: 5px;
@@ -1479,14 +1481,17 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 	font-size: 16px;
 	padding-bottom: 10px;
 	display: inline-block;
+	font-family: 'Fredoka One', cursive;
 }
 .sin-con p {
 	padding-right: 78px;
 	padding-left: 24px;
+	font-family: 'Fredoka One', cursive;
 }
 .footer-about-text,.footer-contact {
 	padding-top: 15px;
 	overflow: hidden;
+	font-family: 'Fredoka One', cursive;
 }
 /*Footer bottom */
 
@@ -1551,7 +1556,7 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 }
 .newsletter-area p {
 	font-size: 16px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	line-height: 38px;
 }
 .newsletter-area h4 {
@@ -1598,13 +1603,13 @@ th {
 table {
 	font-size: 18px;
 	color: #fff;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
     border: 1px solid #ececec;
 }
 th {
 	border-right: 2px solid #fff;
 }
-th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
+th,.table-time{color: #333333;font-family: 'Fredoka One-300';background-color: #fff}
 .table-time th:nth-child(even) {background: #f0f0f0}
 .table-time th:nth-child(odd) {background: #FFF}
  tr:nth-child(even) th{background: #f0f0f0}
@@ -1637,7 +1642,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	border-radius: 0;
 	text-align: center;
 	color: #313f0d;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 }
 .res-routine .sin-sub {
 	background: #f44336;
@@ -1707,7 +1712,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	color: #03a9f4;
 	font-size: 18px;
 }
-.con-top-sin .con-text{ font-family: 'Museo-300';color: #656f73}
+.con-top-sin .con-text{ font-family: 'Fredoka One-300';color: #656f73}
 .con-top-sin {
 	float: left;
 	overflow: hidden;
@@ -1818,7 +1823,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	color: #656f73;
 	border-bottom: 1px solid #f4f4f4;
 	padding-left: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .mainmenu-two li .sub-menu a::after,.mainmenu-two li .mega-menu a::after {
 	content: '';
@@ -1834,7 +1839,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	transition: all 0.3s ease 0s;
 }
 .mainmenu-two .mega-button a {
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	color: #656f73;
 	font-size: 16px;
 	padding: 3px 0px;
@@ -2066,11 +2071,11 @@ mainmenu-two .mega-catagory.mega-img {
 	font-size: 16px;
 	line-height: 26px;
     margin-bottom: 9px;
-     font-family: 'Museo-300';
+     font-family: 'Fredoka One-300';
 }
 .sin-fac h5{font-size: 16px;font-weight: 400;margin-bottom: 5px}
 .sin-fac p {
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	padding-right: 30px;
 }
 
@@ -2122,7 +2127,7 @@ mainmenu-two .mega-catagory.mega-img {
 	width: 50%;
 	margin-bottom: 7px;
 	font-size: 16px;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
     float: left;
 }
 .childcare-ser-feature span i {
@@ -2479,7 +2484,7 @@ mainmenu-two .mega-catagory.mega-img {
 	font-size: 40px;
 	margin-bottom: 8px;
 }
-.sin-counter span{font-size: 20px;font-family: 'Museo-500';}
+.sin-counter span{font-size: 20px;font-family: 'Fredoka One-500';}
 .counter-area{height: 140px;background-image: url(img/bg/counter-bg.jpg);
 background-position: center;background-size: cover;background-position: center;
 }
@@ -2635,7 +2640,7 @@ background-position: center;background-size: cover;background-position: center;
 .text-bread-crumb h2 {
 	font-size: 40px;
 	color: #fff;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .text-bread-crumb h2 span {
 	font-size: 20px;
@@ -2669,12 +2674,12 @@ background-position: center;background-size: cover;background-position: center;
 	font-size: 40px;
 	color: #03a9f4;
 	text-transform: capitalize;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .kin-top-info h6 {
 	font-size: 20px;
 	margin-bottom: 20px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	text-transform: capitalize;
 	margin-top: 26px;
 }
@@ -2691,14 +2696,14 @@ background-position: center;background-size: cover;background-position: center;
 }
 .kin-top-info p {
 	margin-bottom: 9px;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .kin-top-info span {
 	display: block;
 	margin-left: 32px;
 	margin-bottom: 6px;
 	font-size: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .kin-top-con-right {
 	color: #656f73;
@@ -2723,22 +2728,22 @@ background-position: center;background-size: cover;background-position: center;
 }
 .sin-kin-routine h5 {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	line-height: 43px;
 }
 .sin-kin-routine h6 {
 	font-size: 20px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	padding: 6px 0px;
 }
 .sin-kin-routine p {
     font-size: 18px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 
 .sin-kin-routine span {
     font-size: 16px;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
 }
 .kindergarten-daily-routine {
 	padding: 60px 0 70px;
@@ -2758,14 +2763,14 @@ background-position: center;background-size: cover;background-position: center;
 	background-size: cover;
 	padding: 100px 0px;
 }
-.about-six .style-two.wellcome-content h2{font-size: 30px;font-family: 'Museo-500';}
+.about-six .style-two.wellcome-content h2{font-size: 30px;font-family: 'Fredoka One-500';}
 .about-six .wellcome-content p {
 	color: #919889;
 }
 .about-six .wellcome-content p {
 	color: #919889;
 	padding-right: 0px;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
 }
 
 /*------Send message area css ----------------*/
@@ -2815,7 +2820,7 @@ background-position: center;background-size: cover;background-position: center;
 .drop-d option{color: #919889;}
 .area-heading.style-three {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	margin-bottom: 25px;
 }
 .send-message-area .kids-care-btn {
@@ -2834,12 +2839,12 @@ background-position: center;background-size: cover;background-position: center;
 }
 .sin-faciliti h4 {
 	font-size: 20px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	margin-bottom: 10px;
 }
 .sin-faciliti p {
 	font-size: 16px;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	color: #656f73;
 }
 .sin-faciliti-con {
@@ -2884,12 +2889,12 @@ background-position: center;background-size: cover;background-position: center;
 .down-text a {
 	font-size: 20px;
 	margin-bottom: 2px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	color: #fff;
 }
 .down-text span {
 	font-size: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
     display: block;
 }
 .sin-download img {
@@ -2905,7 +2910,7 @@ background-position: center;background-size: cover;background-position: center;
     padding: 80px 0px;
     text-align: center
 }
-.download-area h3{font-family: 'Museo-500';color: #cc4b4c}
+.download-area h3{font-family: 'Fredoka One-500';color: #cc4b4c}
 
 /*-----Video area start-------------*/
 
@@ -3016,7 +3021,7 @@ background-position: center;background-size: cover;background-position: center;
 .care-content h6 {
 	font-size: 20px;
 	margin-bottom: 11px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .care-content {padding-top: 19px;}
 .care-content p {
@@ -3033,7 +3038,7 @@ background-position: center;background-size: cover;background-position: center;
 	position: relative;
 	padding: 60px 0px;
 }
-.infant-care .area-heading{font-size: 20px;font-family: 'Museo-700';margin-bottom: 30px}
+.infant-care .area-heading{font-size: 20px;font-family: 'Fredoka One-700';margin-bottom: 30px}
 .infant-develop {
 	min-height: 570px;
 	left: 0;
@@ -3048,7 +3053,7 @@ background-position: center;background-size: cover;background-position: center;
 .infant-develop .area-heading {
 	font-size: 25px;
 	text-align: left;
-     font-family: 'Museo-700';
+     font-family: 'Fredoka One-700';
 }
 .card.c-two .card-header:first-child {
 	border-radius: 0px;
@@ -3059,7 +3064,7 @@ background-position: center;background-size: cover;background-position: center;
 .c-two.card h5 a {
 	color: #656f73;
 	font-size: 18px;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
 }
 .card-body ul li {
 	color: #656f73;
@@ -3090,13 +3095,13 @@ background-position: center;background-size: cover;background-position: center;
 }
 .focus-top-left h4 {
 	font-size: 20px;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
-.focus-top-left p{font-size: 16px;font-family: 'Museo-300';padding: 30px 0px;line-height: 30px}
-.focus-top-left ul li{font-size: 16px;font-family: 'Museo-300';}
+.focus-top-left p{font-size: 16px;font-family: 'Fredoka One-300';padding: 30px 0px;line-height: 30px}
+.focus-top-left ul li{font-size: 16px;font-family: 'Fredoka One-300';}
 .focus-top-left ul li {
 	font-size: 16px;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	padding: 5px 0px;
 }
 .focus-top-left ul li i {
@@ -3110,7 +3115,7 @@ background-position: center;background-size: cover;background-position: center;
 .sched-head {
 	font-size: 25px;
 	text-align: center;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	margin-bottom: 7px;
 }
 .schedule-wrapper p {
@@ -3123,7 +3128,7 @@ background-position: center;background-size: cover;background-position: center;
 	padding: 8px 0px;
 	padding-left: 20%;
 	color: #fff;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	text-transform: uppercase;
 }
 .sin-shedule {
@@ -3200,7 +3205,7 @@ background-position: center;background-size: cover;background-position: center;
     font-size: 20px;
     color: #8373ce;
     text-transform: capitalize;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .content-side h5 i {
 	color: #8373ce;
@@ -3208,7 +3213,7 @@ background-position: center;background-size: cover;background-position: center;
 	font-size: 18px;
 }
 .content-side span {
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	margin-top: 2px;
 	display: inline-block;
 }
@@ -3351,12 +3356,12 @@ background-position: center;background-size: cover;background-position: center;
 	line-height: 28px;
 	margin-bottom: 15px;
 	color: #656f73;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .tes-one-right span {
 	font-size: 20px;
 	color: #919889;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .sin-tes-one {
 	padding: 40px 30px;
@@ -3370,7 +3375,7 @@ background-position: center;background-size: cover;background-position: center;
 .testimonial-one {padding: 70px 0px;}
 .testimonial-one .area-heading.style-three {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	margin-bottom: 60px;
 }
 /*---------Testimonial two area css---------------*/
@@ -3378,7 +3383,7 @@ background-position: center;background-size: cover;background-position: center;
 .testi-two-carousel h3 {
 	font-size: 25px;
 	color: #444444;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
 }
 .testtimonial-two-area {
 	background-image: url(img/bg/routine-bg.jpg);
@@ -3480,7 +3485,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .tution-dis p {
 	font-size: 16px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	color: #fff;
 	line-height: 30px;
 	padding-top: 16px;
@@ -3508,20 +3513,20 @@ background-position: center;background-size: cover;background-position: center;
 .heading-style-two {
 	font-size: 25px;
 	color: #444;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	
 }
 .tution-top .heading-style-two{margin-bottom: 25px;}
 .tution-top h6 {
 	font-size: 16px;
 	color: #444;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	margin-bottom: 10px;
 }
 .tution-top p {
 	font-size: 16px;
 	color: #444;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	line-height: 26px;
 	padding: 15px 0px;
 }
@@ -3540,13 +3545,13 @@ background-position: center;background-size: cover;background-position: center;
 }
 .tution-bottom-area h5 {
 	font-size: 25px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	margin-bottom: 5px;
 	text-align: left;
 }
 .sin-tution h6 {
 	font-size: 20px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	margin-bottom: 2px;
 }
 .top-tut {
@@ -3558,7 +3563,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .bottom-tut p {
 	font-size: 18px;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	padding: 14px 0;
 	border: 1px solid #e1e1e1;
 	border-bottom: none;
@@ -3584,7 +3589,7 @@ background-position: center;background-size: cover;background-position: center;
 	text-align: left;
 	font-size: 20px;
 	line-height: 32px;
-    font-family: 'Museo-300';
+    font-family: 'Fredoka One-300';
 }
 .sin-tab-fot p:nth-child(1){color: #8373ce} 
 .sin-tab-fot p:nth-child(3){color: #03a9f4} 
@@ -3836,7 +3841,7 @@ ul.sort-by-age li:first-child{border-top:1px solid #ececec }
 .sm-img-right .pro-price {
 	font-size: 14px;
 	color: #ee0f0f;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	float: none;
 	margin-top: 0px;
 }
@@ -4039,7 +4044,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 	white-space: nowrap;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	border-left: 1px solid #05528e;
 }
 .add-cart:hover span {
@@ -4065,7 +4070,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 .prod-page-name h1 {
 	font-size: 27px;
 	color: #4d4d4d;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
     margin-bottom: 10px;
 }
 .brand p {
@@ -4078,7 +4083,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 .brand a:hover {color: #4d4d4d;}
 .new-price {
 	font-size: 25px;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	color: #03a9f4;
 	margin-top: 10px;
 	display: block;
@@ -4437,7 +4442,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-      font-family: 'Museo-500';
+      font-family: 'Fredoka One-500';
 }
 .accordion  .link a:hover {
 	color: #0f0606;
@@ -4541,7 +4546,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 	margin-left: 40px;
 	padding: 8px 0px;
 	font-size: 17px;
-    font-family: 'Museo-500';
+    font-family: 'Fredoka One-500';
 }
 .accordion .font-orange li a {color: #ffa725;}
 .accordion .font-sky li a {color: #03a9f4;}
@@ -4562,7 +4567,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 }
 /*----------------------------------------*/
 /*  12.  Contact page css
@@ -4606,7 +4611,7 @@ height: 390px;
 	font-size: 20px;
 	text-transform: uppercase;
 	cursor: pointer;
-    font-family: 'Museo-700';
+    font-family: 'Fredoka One-700';
 }
 .contact-page-form h3,.con-page-info h3 {
 	font-size: 40px;
@@ -4890,7 +4895,7 @@ text-align: center;}
 .sin-realated-post p {
 	color: #606263;
 	font-size: 17px;
-	font-family: 'Museo-500';
+	font-family: 'Fredoka One-500';
 	margin-top: 16px;
 }
 .comments-area {
@@ -4940,7 +4945,7 @@ text-align: center;}
 	color: #fff;
 	font-size: 16px;
 	line-height: 0;
-	font-family: 'Museo-700';
+	font-family: 'Fredoka One-700';
 	cursor: pointer;
 	border: none;
 }
@@ -5062,7 +5067,7 @@ text-align: center;}
 }
 .cat-post a {
 	color: #656f73;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	padding: 10px 0px;
 	display: block;
 	border-bottom: 1px solid #e7e7e7;
@@ -5800,7 +5805,7 @@ position: relative;
 .footer-tab a {
 	color: #03a9f4;
 	font-size: 15px;
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	border: 1px solid;
 	padding: 7px 13px;
 	display: block;
@@ -5950,7 +5955,7 @@ position: relative;
 .about-nutri-inner h4{font-size: 30px}
 .about-nutri-inner ul{font-size: 16px}
 .about-nutri-inner ul li {
-	font-family: 'Museo-300';
+	font-family: 'Fredoka One-300';
 	display: inline-block;
 	width: 40%;
 	margin-bottom: 8px;
@@ -6002,7 +6007,7 @@ position: relative;
 .sin-staff-qulity {
 	margin-top: 27px;
 }
-.sin-staff-qulity p strong{font-family: 'Museo-500';}
+.sin-staff-qulity p strong{font-family: 'Fredoka One-500';}
 .sin-staff-with-con:hover .sin-staff-right-con {
     background: #8bc34a;
     color: #fff;
