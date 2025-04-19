@@ -45,14 +45,14 @@ html {
 
 body {
   color: #919889;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Fredoka One-300';
 }
 
 p {
   font-family: 'Fredoka One', cursive;
   margin: 0;
-  line-height: 24px
+  line-height: 32px
 }
 img {
 	max-width: 100%;
@@ -64,11 +64,12 @@ a {
 	transition: all 0.3s;
   text-decoration: none !important;
 }
-a:hover,a:focus{color: #fff}
+a:hover,a:focus{color: #6c53ff}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
     font-family: 'Fredoka One', cursive;
     font-weight: 400;
+	
 }
 
 h1 {
@@ -155,11 +156,29 @@ button:focus {
 /*  1.  Home page one css
 /*----------------------------------------*/
 
+span {
+	font-family: 'Fredoka One', cursive;
+  }
+.tes-name {
+	font-family: 'Fredoka One', cursive;
+	font-size: 18px;
+	color: #ffffff;
+	
+  }
+
+  span {
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+  }
+
 .top-bar{background: #03a9f4;color: #fff}
 .top-bar span {
 	padding: 4px 0px;
 	display: inline-block;
 	margin-top: 11px;
+	
 }
 .top-bar span i {
 	margin-right: 4px;
@@ -298,7 +317,7 @@ padding-bottom: 5px;
 }
 .cart-sub-total > p {
 	color: #444;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 1px;
 	padding: 2px 10px;
@@ -311,11 +330,11 @@ padding-bottom: 5px;
 .cart-sub-total span {
     color: #6e6e6e;
     float: right;
-    font-size: 18px;
+    font-size: 24px;
 }
 .cart-sub-total p span {
 	color: #f44336;
-	font-size: 18px;
+	font-size: 20px;
 }
 .cart-bottom div {padding: 5px 0;}
 .cart-checkout a {
@@ -352,7 +371,7 @@ padding-bottom: 5px;
 	color: #fff;
 }
 .cart-area a i {
-	font-size: 18px;
+	font-size: 20px;
 	color: #fff;
 	margin-right: 12px;
 	margin-top: 0px;
@@ -362,7 +381,7 @@ padding-bottom: 5px;
 	font-size: 20px;
 }
 .cart-sub-total span {margin-top: 0px;}
-.cart-checkout a i {font-size: 18px;}
+.cart-checkout a i {font-size: 20px;}
 
 /*-----------------Main menu area css -----------------*/
 .logo {
@@ -389,7 +408,7 @@ padding-bottom: 5px;
 .mainmenu > ul > li i {margin-left: 8px;}
 .mainmenu li a {
 	display: block;
-	font-size: 18px;
+	font-size: 22px;
 	padding: 28px 20px 30px;
 	text-transform: capitalize;
 	font-family: 'Fredoka One-500', cursive;
@@ -464,7 +483,7 @@ padding-bottom: 5px;
 	left: 5px;
 	top: 9px;
 	font-family: 'FontAwesome';
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
     z-index: 9999;
     display: block;
@@ -483,7 +502,7 @@ padding-bottom: 5px;
 .sub-menu li {display: block;}
 .mainmenu .sub-menu a {
 	padding: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #656f73;
 	border-bottom: 1px solid #f4f4f4;
 	padding-left: 16px;
@@ -491,7 +510,7 @@ padding-bottom: 5px;
 }
 .search a {
 	color: #03a9f4;
-	font-size: 18px;
+	font-size: 20px;
 }
 .search-input {
 	visibility: hidden;
@@ -515,7 +534,7 @@ padding-bottom: 5px;
 }
 .search {float: left;}
 .kids-care-btn {
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	background: #f44336;
 	padding: 9px 20px;
@@ -723,7 +742,7 @@ padding-bottom: 5px;
 }
 .slider-text.sldr-two h1 {
 	font-size: 75px;
-	color: #f44336;
+	color: #ffffff;
 	text-transform: capitalize;
 }
 .homepage-s.owl-theme .owl-nav .owl-next{right: 0px;opacity: 0;}
@@ -748,7 +767,7 @@ padding-bottom: 5px;
 
 .feature-area-wrapper {
 	padding: 55px 0px;
-	background: #f1f6dd;
+	background: #ffffff;
 }
 .single-features {
 	text-align: center;
@@ -839,7 +858,7 @@ padding-bottom: 5px;
 	text-align: left;
 }
 .wellcome-content p {
-	color: #919889;
+	color: #ffffff;
 	padding-right: 70px;
     margin-bottom: 35px;
 }
@@ -965,7 +984,7 @@ padding-bottom: 5px;
 	padding-right: 23px;
 }
 .details .kids-care-btn:hover {
-	background: #03a9f4 !important;
+	background: #f4031faa !important;
 }
 .intro-left span {
 	margin-top: 5px;
@@ -1120,15 +1139,15 @@ padding-bottom: 5px;
    }
 .single-testimonial p {
 	font-family: 'Fredoka One', cursive;
-	font-size: 16px;
+	font-size: 22px;
 	line-height: 30px;
 	padding-bottom: 50px;
 	position: relative;
 	z-index: 9999;
 	padding-top: 50px;
 }
-.single-testimonial span{display: block;font-family: 'Fredoka One-300';font-size: 18px}
-.single-testimonial span.tes-name{font-family: 'Fredoka One-700';font-size: 20px}
+.single-testimonial span{display: block;font-size: 18px}
+.single-testimonial span.tes-name{font-size: 20px}
 .test-img img {
 	border-radius: 50px;
 	width: 100%;
@@ -1668,7 +1687,7 @@ th,.table-time{color: #333333;font-family: 'Fredoka One-300';background-color: #
 	width: 49%;
 	margin: 0 auto;
 	padding: 0 50px;
-	font-size: 16px;
+	font-size: 26px;
 	line-height: 28px;
 	margin-bottom: 50px;
 }
@@ -1712,7 +1731,7 @@ th,.table-time{color: #333333;font-family: 'Fredoka One-300';background-color: #
 	color: #03a9f4;
 	font-size: 18px;
 }
-.con-top-sin .con-text{ font-family: 'Fredoka One-300';color: #656f73}
+.con-top-sin .con-text{ color: #656f73}
 .con-top-sin {
 	float: left;
 	overflow: hidden;
@@ -1964,7 +1983,7 @@ mainmenu-two .mega-catagory.mega-img {
 	float: left;
 }
 .sin-wel-3-con h3 {
-	font-size: 25px;
+	font-size: 30px;
 	margin-bottom: 15px;
 }
 .sin-wel-3-con {
@@ -2589,11 +2608,11 @@ background-position: center;background-size: cover;background-position: center;
 	padding: 30px 0px 30px;
 }
 .about-five {
-	background: #f8f8f8;
+	background: #ffffff;
 	padding: 50px 0px;
 }
 .wellcome-content p {
-	color: #656f73;
+	color: #ffffff;
 	margin-bottom: 35px;
 }
 
@@ -2765,10 +2784,10 @@ background-position: center;background-size: cover;background-position: center;
 }
 .about-six .style-two.wellcome-content h2{font-size: 30px;font-family: 'Fredoka One-500';}
 .about-six .wellcome-content p {
-	color: #919889;
+	color: #ffffff;
 }
 .about-six .wellcome-content p {
-	color: #919889;
+	color: #ffffff;
 	padding-right: 0px;
     font-family: 'Fredoka One-500';
 }
@@ -3822,6 +3841,7 @@ ul.sort-by-age li:first-child{border-top:1px solid #ececec }
 .tag a:hover{background: #ffa726;color: #fff}
 .tag .bgc-orange {
 	color: #fff;
+	
 }
 .sm-img {
 	float: left;
@@ -4561,7 +4581,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 	display: block;
 	padding: 15px 15px 15px 42px;
 	color: #4D4D4D;
-	font-size: 14px;
+	font-size: 25px;
 	border-bottom: 1px solid #CCC;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
@@ -5272,7 +5292,7 @@ text-align: center;}
 .area-subline {
 	text-align: center;
 	color: #80817e;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 0 20%;
 	padding-bottom: 70px;
 }
@@ -5817,6 +5837,11 @@ position: relative;
 .footer-widget.style-three .post-brif a {
 	color: #666666;
 	font-size: 16px;
+	text-shadow:
+    -1px -1px 0 blue,
+     1px -1px 0 blue,
+    -1px  1px 0 blue,
+     1px  1px 0 blue;
 }
 .footer-newsletter input {
 	border: none;

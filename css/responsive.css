@@ -58,14 +58,14 @@
     }
     .event-btn {padding: 15px 10px 15px 10px;}
     .event-btn span {
-        font-size: 15px;
+        font-size: 17px;
         padding-top: 12px;
     }
     .to-do-content { margin-top: 50px;}
     .to-do-content h3 {font-size: 22px;}
     .subscribe-link {padding-right: 0px;}
     .mainmenu li a {
-        font-size: 17px;
+        font-size: 19px;
         padding: 28px 15px;
 
     }
@@ -633,7 +633,7 @@
         background-size: 83%;
     }
     .wellcome-content p {
-        color: #919889;
+        color: #ffffff;
         margin-bottom: 30px;
     }
     .call-to-action-area p {
@@ -2102,7 +2102,6 @@
         padding: 15px 0px;
         font-size: 14px;
         line-height: 24px;
-        font-family: 'Museo-500';
     }
     .single-testimonial p::before {
         top: -5px;
