@@ -1,35 +1,114 @@
 
 /*-------Font---------- */
 
-@font-face {
-  font-family: 'Museo-300';
-  src: url('fonts/Museo-300.eot') format('embedded-opentype'),  url('fonts/Museo-300.otf')  format('opentype'),
-	     url('fonts/Museo-300.woff') format('woff'), url('fonts/Museo-300.ttf')  format('truetype'), url('fonts/Museo-300.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Museo-500';
-  src: url('fonts/Museo-500.eot') format('embedded-opentype'),  url('fonts/Museo-500.otf')  format('opentype'),
-	     url('fonts/Museo-500.woff') format('woff'), url('fonts/Museo-500.ttf')  format('truetype'), url('fonts/Museo-500.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Museo-700';
-  src: url('fonts/Museo-700.eot') format('embedded-opentype'),  url('fonts/Museo-700.otf')  format('opentype'),
-	     url('fonts/Museo-700.woff') format('woff'), url('fonts/Museo-700.ttf')  format('truetype'), url('fonts/Museo-700.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
+
+/*-------Font---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  color: #919889;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  
+}
+
+.mainmenu li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.mainmenu .sub-menu a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.mainmenu-two li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.price p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.area-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.slider-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.single-features h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.wellcome-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.call-to-action-area h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.teacher-detail h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.single-testimonial p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.single-testimonial span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.table-wrapper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.table-time {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.to-do-content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.single-widget h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.post-brif a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Remove all Museo font-face declarations and replace with Roboto */
 
 html {
     font-size: 100%;
@@ -46,12 +125,12 @@ html {
 body {
   color: #919889;
   font-size: 19px;
-  font-family: 'Museo-300';
+  font-family: 'Roboto';
 }
 
 p {
   margin: 0;
-  line-height: 24px
+  line-height: 35px
 }
 img {
 	max-width: 100%;
@@ -66,7 +145,7 @@ a {
 a:hover,a:focus{color: #fff}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     font-weight: 400;
 }
 
@@ -82,7 +161,7 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 input ,textarea{outline: none}
 button:focus {
@@ -486,7 +565,7 @@ padding-bottom: 5px;
 	color: #656f73;
 	border-bottom: 1px solid #f4f4f4;
 	padding-left: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .search a {
 	color: #03a9f4;
@@ -520,7 +599,7 @@ padding-bottom: 5px;
 	padding: 9px 20px;
 	display: inline-block;
 	border-radius: 5px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	position: relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -578,7 +657,7 @@ padding-bottom: 5px;
 	transition: all 0.3s ease 0s;
 }
 .mainmenu .mega-button a {
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	color: #656f73;
 	font-size: 16px;
 	padding: 3px 0px;
@@ -603,7 +682,7 @@ padding-bottom: 5px;
 	font-size: 20px;
 	color: #03a9f4;
 	margin: 10px 0px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .mega-catagory.mega-img {
 	text-align: center;
@@ -631,7 +710,7 @@ padding-bottom: 5px;
 .slider-text p {
 	margin-bottom: 38px;
 	font-size: 40px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .bg-1{
 	background-image: url(img/slider/slider-2.jpg);
@@ -785,7 +864,7 @@ padding-bottom: 5px;
 
 }
 .single-features h3 {
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	font-size: 26px;
 	letter-spacing: 3px;
 	margin-bottom: 20px;
@@ -850,7 +929,7 @@ padding-bottom: 5px;
 }
 .area-heading {
 	font-size: 35px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	text-align: center;
 	margin-bottom: 55px;
 }
@@ -889,7 +968,7 @@ padding-bottom: 5px;
 	        box-shadow: 0px 15px 20px 0px rgba(106, 121, 128, 0.1);
 	border-color: #51A9F4;
 }
-.price p{font-size: 20px;font-family: 'Museo-700';}
+.price p{font-size: 20px; }
 .price {
 	position: absolute;
 	top: -14px;
@@ -981,7 +1060,7 @@ padding-bottom: 5px;
 }
 .call-to-action-area .kids-care-btn {margin-top: 14px;}
 .call-to-action-area h4 {
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	font-size: 35px;
 	color: #fff;
 }
@@ -1004,7 +1083,7 @@ padding-bottom: 5px;
 .teacher-detail h4 {
 	color: #8373ce;
 	font-size: 20px;
-    font-family: 'Museo-700';
+     
     transform:translate(0px,0px);
     -webkit-transition:all 0.2s ;
     -moz-transition:all 0.2s ;
@@ -1118,7 +1197,7 @@ padding-bottom: 5px;
 	padding: 0 400px;
    }
 .single-testimonial p {
-	font-family: 'Museo-700';
+	 
 	font-size: 20px;
 	line-height: 30px;
 	padding-bottom: 50px;
@@ -1126,8 +1205,8 @@ padding-bottom: 5px;
 	z-index: 9999;
 	padding-top: 50px;
 }
-.single-testimonial span{display: block;font-family: 'Museo-300';font-size: 18px}
-.single-testimonial span.tes-name{font-family: 'Museo-700';font-size: 20px}
+.single-testimonial span{display: block;font-family: 'Roboto';font-size: 18px}
+.single-testimonial span.tes-name{ font-size: 20px}
 .test-img img {
 	border-radius: 50px;
 	width: 100%;
@@ -1200,7 +1279,7 @@ padding-bottom: 5px;
 .single-event .kids-care-btn {float: right;}
 .event-btn span {
 	font-size: 18px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .event-btn > span {
 	padding-top: 7px;
@@ -1281,7 +1360,7 @@ padding-bottom: 5px;
 	color: #962D8D;
 }
 .gallery-content h4 {
-	font-family: 'Museo-700';
+	 
 	font-size: 20px;
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
@@ -1351,7 +1430,7 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 }
 .to-do-content h3 {
 	font-size: 25px;
-    font-family: 'Museo-700';
+     
 }
 .to-do-content p {
 	font-size: 14px;
@@ -1369,9 +1448,9 @@ background-position: center;background-size: cover;background-repeat: no-repeat;
 	margin-bottom: 6px;
 	display: inline-block;
 }
-.in span {font-family: 'Museo-300';}
+.in span {font-family: 'Roboto';}
 .in span {
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	background: #f1f1f1;
 	padding: 5px 16px;
 	margin-left: 5px;
@@ -1599,17 +1678,17 @@ th {
 table {
 	font-size: 18px;
 	color: #353535;
-    font-family: 'Museo-700';
+     
     border: 1px solid #ececec;
 }
 th {
 	border-right: 2px solid #fff;
 }
-th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
+th,.table-time{color: #333333;font-family: 'Roboto';background-color: #fff}
 .table-time th:nth-child(even) {background: #f0f0f0}
 .table-time th:nth-child(odd) {background: #FFF}
  tr:nth-child(even) th{background: #f0f0f0}
-.table-corner {width: 115px;font-family: 'Fredoka One', cursive;font-size: 20px}
+.table-corner {width: 115px;font-family: 'Roboto';font-size: 20px}
 .routine-holiday {
 	width: 250px;
 	margin: 0 auto;
@@ -1700,15 +1779,15 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 }
 .con-top-sin p {
 	padding-left: 55px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .con-top-sin p {
 	padding-left: 55px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	color: #03a9f4;
 	font-size: 18px;
 }
-.con-top-sin .con-text{ font-family: 'Museo-300';color: #656f73}
+.con-top-sin .con-text{ font-family: 'Roboto';color: #656f73}
 .con-top-sin {
 	float: left;
 	overflow: hidden;
@@ -1747,7 +1826,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	font-size: 16px;
 	padding: 13px 20px;
 	text-transform: capitalize;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	position: relative;
 	color: #fff;
 	padding-bottom: 18px;
@@ -1819,7 +1898,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	color: #656f73;
 	border-bottom: 1px solid #f4f4f4;
 	padding-left: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .mainmenu-two li .sub-menu a::after,.mainmenu-two li .mega-menu a::after {
 	content: '';
@@ -1835,7 +1914,7 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 	transition: all 0.3s ease 0s;
 }
 .mainmenu-two .mega-button a {
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	color: #656f73;
 	font-size: 16px;
 	padding: 3px 0px;
@@ -1864,7 +1943,7 @@ mainmenu-two .mega-button {
 	font-size: 20px;
 	color: #03a9f4;
 	margin: 10px 0px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 mainmenu-two .mega-catagory.mega-img {
 	text-align: center;
@@ -2005,7 +2084,7 @@ mainmenu-two .mega-catagory.mega-img {
 }
 .class-con-top p {
     font-size: 16px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     font-weight: 400;
 }
 .left-c {	width: 50%;
@@ -2067,7 +2146,7 @@ mainmenu-two .mega-catagory.mega-img {
 	font-size: 16px;
 	line-height: 26px;
     margin-bottom: 9px;
-     font-family: 'Museo-300';
+     font-family: 'Roboto';
 }
 .sin-fac h5{font-size: 16px;font-weight: 400;margin-bottom: 5px}
 .sin-fac p {
@@ -2110,16 +2189,16 @@ mainmenu-two .mega-catagory.mega-img {
 	background-attachment: fixed;
 }
 .childcare-service .area-heading{text-align: left;font-size: 45px}
-.inner-service span{font-size: 20ox;font-family: 'Fredoka One', cursive;}
+.inner-service span{font-size: 20ox;font-family: 'Roboto';}
 .inner-service span {
 	/* font-size: 20ox; */
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	width: 50%;
 	margin-bottom: 7px;
 	font-size: 20px;
 }
 .childcare-ser-feature span {
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	width: 50%;
 	margin-bottom: 7px;
 	font-size: 16px;
@@ -2357,7 +2436,7 @@ mainmenu-two .mega-catagory.mega-img {
 	font-size: 40px;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	float: right;
 	margin-right: 70px;
 }
@@ -2373,7 +2452,7 @@ mainmenu-two .mega-catagory.mega-img {
 	font-size: 30px;
 	color: #fff;
 	text-transform: capitalize;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	margin-top: 6px;
 	display: inline-block;
 	float: left;
@@ -2473,7 +2552,7 @@ mainmenu-two .mega-catagory.mega-img {
 
 .sin-counter {
 	text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     color: #fff
 }
 .sin-counter p {
@@ -2597,7 +2676,7 @@ background-position: center;background-size: cover;background-position: center;
 
 .wellcome-content span {
 	font-size: 24px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .even-area {
 	padding: 120px 0px 120px;
@@ -2622,7 +2701,7 @@ background-position: center;background-size: cover;background-position: center;
 	color: #656f73;
 	font-size: 25px;
 	margin-bottom: 20px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 }
 
 /*----------------------------------------*/
@@ -2636,7 +2715,7 @@ background-position: center;background-size: cover;background-position: center;
 .text-bread-crumb h2 {
 	font-size: 40px;
 	color: #fff;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .text-bread-crumb h2 span {
 	font-size: 20px;
@@ -2670,12 +2749,12 @@ background-position: center;background-size: cover;background-position: center;
 	font-size: 40px;
 	color: #03a9f4;
 	text-transform: capitalize;
-    font-family: 'Museo-700';
+     
 }
 .kin-top-info h6 {
 	font-size: 20px;
 	margin-bottom: 20px;
-	font-family: 'Museo-700';
+	 
 	text-transform: capitalize;
 	margin-top: 26px;
 }
@@ -2692,14 +2771,14 @@ background-position: center;background-size: cover;background-position: center;
 }
 .kin-top-info p {
 	margin-bottom: 9px;
-    font-family: 'Museo-700';
+     
 }
 .kin-top-info span {
 	display: block;
 	margin-left: 32px;
 	margin-bottom: 6px;
 	font-size: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .kin-top-con-right {
 	color: #656f73;
@@ -2724,17 +2803,17 @@ background-position: center;background-size: cover;background-position: center;
 }
 .sin-kin-routine h5 {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	 
 	line-height: 43px;
 }
 .sin-kin-routine h6 {
 	font-size: 20px;
-	font-family: 'Museo-700';
+	 
 	padding: 6px 0px;
 }
 .sin-kin-routine p {
     font-size: 18px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 
 .sin-kin-routine span {
@@ -2816,7 +2895,7 @@ background-position: center;background-size: cover;background-position: center;
 .drop-d option{color: #919889;}
 .area-heading.style-three {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	 
 	margin-bottom: 25px;
 }
 .send-message-area .kids-care-btn {
@@ -2840,7 +2919,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .sin-faciliti p {
 	font-size: 16px;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	color: #656f73;
 }
 .sin-faciliti-con {
@@ -2890,7 +2969,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .down-text span {
 	font-size: 16px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
     display: block;
 }
 .sin-download img {
@@ -3017,7 +3096,7 @@ background-position: center;background-size: cover;background-position: center;
 .care-content h6 {
 	font-size: 20px;
 	margin-bottom: 11px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .care-content {padding-top: 19px;}
 .care-content p {
@@ -3034,7 +3113,7 @@ background-position: center;background-size: cover;background-position: center;
 	position: relative;
 	padding: 60px 0px;
 }
-.infant-care .area-heading{font-size: 20px;font-family: 'Museo-700';margin-bottom: 30px}
+.infant-care .area-heading{font-size: 20px; margin-bottom: 30px}
 .infant-develop {
 	min-height: 570px;
 	left: 0;
@@ -3049,7 +3128,7 @@ background-position: center;background-size: cover;background-position: center;
 .infant-develop .area-heading {
 	font-size: 25px;
 	text-align: left;
-     font-family: 'Museo-700';
+      
 }
 .card.c-two .card-header:first-child {
 	border-radius: 0px;
@@ -3091,13 +3170,13 @@ background-position: center;background-size: cover;background-position: center;
 }
 .focus-top-left h4 {
 	font-size: 24px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
-.focus-top-left p{font-size: 20px;font-family: 'Museo-300';padding: 30px 0px;line-height: 30px}
-.focus-top-left ul li{font-size: 16px;font-family: 'Museo-300';}
+.focus-top-left p{font-size: 20px;font-family: 'Roboto';padding: 30px 0px;line-height: 30px}
+.focus-top-left ul li{font-size: 16px;font-family: 'Roboto';}
 .focus-top-left ul li {
 	font-size: 16px;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	padding: 5px 0px;
 }
 .focus-top-left ul li i {
@@ -3111,7 +3190,7 @@ background-position: center;background-size: cover;background-position: center;
 .sched-head {
 	font-size: 25px;
 	text-align: center;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	margin-bottom: 7px;
 }
 .schedule-wrapper p {
@@ -3124,7 +3203,7 @@ background-position: center;background-size: cover;background-position: center;
 	padding: 8px 0px;
 	padding-left: 20%;
 	color: #fff;
-	font-family: 'Museo-700';
+	 
 	text-transform: uppercase;
 }
 .sin-shedule {
@@ -3201,7 +3280,7 @@ background-position: center;background-size: cover;background-position: center;
     font-size: 20px;
     color: #8373ce;
     text-transform: capitalize;
-    font-family: 'Museo-700';
+     
 }
 .content-side h5 i {
 	color: #8373ce;
@@ -3352,12 +3431,12 @@ background-position: center;background-size: cover;background-position: center;
 	line-height: 28px;
 	margin-bottom: 15px;
 	color: #656f73;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .tes-one-right span {
 	font-size: 20px;
 	color: #919889;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .sin-tes-one {
 	padding: 40px 30px;
@@ -3371,7 +3450,7 @@ background-position: center;background-size: cover;background-position: center;
 .testimonial-one {padding: 70px 0px;}
 .testimonial-one .area-heading.style-three {
 	font-size: 30px;
-	font-family: 'Museo-700';
+	 
 	margin-bottom: 60px;
 }
 /*---------Testimonial two area css---------------*/
@@ -3481,7 +3560,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .tution-dis p {
 	font-size: 16px;
-	font-family: 'Museo-700';
+	 
 	color: #fff;
 	line-height: 30px;
 	padding-top: 16px;
@@ -3516,13 +3595,13 @@ background-position: center;background-size: cover;background-position: center;
 .tution-top h6 {
 	font-size: 16px;
 	color: #444;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	margin-bottom: 10px;
 }
 .tution-top p {
 	font-size: 16px;
 	color: #444;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	line-height: 26px;
 	padding: 15px 0px;
 }
@@ -3547,7 +3626,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .sin-tution h6 {
 	font-size: 20px;
-	font-family: 'Museo-700';
+	 
 	margin-bottom: 2px;
 }
 .top-tut {
@@ -3559,7 +3638,7 @@ background-position: center;background-size: cover;background-position: center;
 }
 .bottom-tut p {
 	font-size: 18px;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	padding: 14px 0;
 	border: 1px solid #e1e1e1;
 	border-bottom: none;
@@ -3585,7 +3664,7 @@ background-position: center;background-size: cover;background-position: center;
 	text-align: left;
 	font-size: 20px;
 	line-height: 32px;
-    font-family: 'Museo-300';
+    font-family: 'Roboto';
 }
 .sin-tab-fot p:nth-child(1){color: #8373ce} 
 .sin-tab-fot p:nth-child(3){color: #03a9f4} 
@@ -3652,13 +3731,13 @@ background-position: center;background-size: cover;background-position: center;
 a.pro-title {
 	font-size: 25px;
 	color: #03a9f4!important;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     float: left;
 }
 .pro-price {
 	font-size: 18px;
 	color: #ee0f0f;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	float: right;
 	margin-top: 9px;
 }
@@ -3703,7 +3782,7 @@ a.pro-title {
 	padding: 15px 48px;
 	border-radius: 27px;
 	display: inline-block;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	text-align: center;
 	margin-top: 10px;
 }
@@ -3751,7 +3830,7 @@ p.sub-title {
 	margin-right: 17px;
 	text-transform: capitalize;
 	color: #ffa726;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .price-range input[type="text"] {
 	border: medium none;
@@ -3762,7 +3841,7 @@ p.sub-title {
 	text-align: center;
 	width: 46%;
 	word-spacing: 7px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     color: #656f73;
 }
 .sort-area-sin {
@@ -3837,7 +3916,7 @@ ul.sort-by-age li:first-child{border-top:1px solid #ececec }
 .sm-img-right .pro-price {
 	font-size: 14px;
 	color: #ee0f0f;
-	font-family: 'Museo-700';
+	 
 	float: none;
 	margin-top: 0px;
 }
@@ -3856,7 +3935,7 @@ ul.sort-by-age li:first-child{border-top:1px solid #ececec }
 .list-product .pro-price {
 	font-size: 18px;
 	color: #ee0f0f;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	float: left;
 	margin-top: 2px;
 	margin-right: 21px;
@@ -4040,7 +4119,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 	white-space: nowrap;
-	font-family: 'Museo-700';
+	 
 	border-left: 1px solid #05528e;
 }
 .add-cart:hover span {
@@ -4066,7 +4145,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 .prod-page-name h1 {
 	font-size: 27px;
 	color: #4d4d4d;
-    font-family: 'Museo-700';
+     
     margin-bottom: 10px;
 }
 .brand p {
@@ -4079,7 +4158,7 @@ box-shadow: -1px -1px 4px -1px rgba(8,8,8,0.71);
 .brand a:hover {color: #4d4d4d;}
 .new-price {
 	font-size: 25px;
-	font-family: 'Museo-700';
+	 
 	color: #03a9f4;
 	margin-top: 10px;
 	display: block;
@@ -4607,7 +4686,7 @@ height: 390px;
 	font-size: 20px;
 	text-transform: uppercase;
 	cursor: pointer;
-    font-family: 'Museo-700';
+     
 }
 .contact-page-form h3,.con-page-info h3 {
 	font-size: 40px;
@@ -4743,7 +4822,7 @@ height: 390px;
 	color: #464646;
 	font-size: 19px;
 	display: block;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	display: block;
 	width: 100%;
 }
@@ -4791,7 +4870,7 @@ height: 390px;
 .post-meta div {
 	height: 100px;
 }
-.post-meta a{font-family: 'Fredoka One', cursive;}
+.post-meta a{font-family: 'Roboto';}
 .post-meta .meta-date {
 	background: #f44336;
 	padding: 13px 12px;
@@ -4941,7 +5020,7 @@ text-align: center;}
 	color: #fff;
 	font-size: 16px;
 	line-height: 0;
-	font-family: 'Museo-700';
+	 
 	cursor: pointer;
 	border: none;
 }
@@ -5019,7 +5098,7 @@ text-align: center;}
 	background: #ffa725;
 	text-transform: uppercase;
 	color: #fff;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	font-size: 16px;
 	cursor: pointer;
 }
@@ -5063,7 +5142,7 @@ text-align: center;}
 }
 .cat-post a {
 	color: #656f73;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	padding: 10px 0px;
 	display: block;
 	border-bottom: 1px solid #e7e7e7;
@@ -5375,7 +5454,7 @@ position: relative;
 }
 .single-teacher.style-b .teacher-detail h4 {
 	font-size: 20px;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
     text-transform: uppercase;
 }
 .single-teacher.style-b .teacher-detail p {
@@ -5426,7 +5505,7 @@ position: relative;
 	text-transform: uppercase;
 	width: 105px !important;
 	float: left;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
     margin: 0 10px;
 }
 .cdown p {
@@ -5607,7 +5686,7 @@ position: relative;
 .sin-up-content a {
 	font-size: 18px;
 	background: #8dc54e;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto';
 	display: block;
 	color: #fff;
 	text-align: center;
@@ -5801,7 +5880,7 @@ position: relative;
 .footer-tab a {
 	color: #03a9f4;
 	font-size: 15px;
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	border: 1px solid;
 	padding: 7px 13px;
 	display: block;
@@ -5933,7 +6012,7 @@ position: relative;
 .nutrition-table table th{color: #fff;border: 1px solid #fff}
 .nutrition-table .sched-head {
 	margin-bottom: 40px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
     font-size: 30px;
 }
 .nutrition-table {
@@ -5951,7 +6030,7 @@ position: relative;
 .about-nutri-inner h4{font-size: 30px}
 .about-nutri-inner ul{font-size: 16px}
 .about-nutri-inner ul li {
-	font-family: 'Museo-300';
+	font-family: 'Roboto';
 	display: inline-block;
 	width: 40%;
 	margin-bottom: 8px;
@@ -6162,7 +6241,7 @@ position: relative;
 }
 .sin-process-img span{
     font-size: 30px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto';
 }
 .sin-pro-content {
 	text-align: center;
