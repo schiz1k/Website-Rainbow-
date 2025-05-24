@@ -1114,7 +1114,11 @@
 
 
 
-
+@media (min-width: 991px) and (max-width: 995px) {
+    .hide-sm-up {
+        display: block;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 
@@ -1951,12 +1955,19 @@
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 576px) and (max-width: 995px) {
+        .logo-disappear {
+        display: none;
+    }
+}
 
 @media (max-width: 575px) {
     .container-fluid {
         width: 96%;
     }
-
+    .logo-disappear {
+        display: none;
+    }
     .top-bar span {
         padding: 0px 0px;
         font-size: 12px;
